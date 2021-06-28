@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/******************  Globais ********************/
+
+:root{
+    --black: #000;
+}
+
+@media (max-width: 1080px){
+    html{
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px){
+    html{
+        font-size: 87.5%;
+    }
+}
+
+.container{
+    padding: 0 2%;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a, a:link, a:visited{
+    text-decoration: none;
+    color: black
+    
+}
+
+body, span, p, h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato', sans-serif;
+}
+
+/*****************************************/
+
+body, html{
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    background: transparent;
+}
+
+header nav.mobile{
+    display: none;
+}
+
+header nav.desktop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav.desktop ul{
+    display: flex;
+}
+
+header nav.desktop a{
+    padding: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+header nav.desktop a:hover{
+    background: #b8b5b5;
+    filter: brightness(1);
+}
+
+header nav.desktop div.search{
+    padding: 1rem;
+}
+
+header nav.desktop div.search:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+
